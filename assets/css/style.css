@@ -1,0 +1,34 @@
+/* universal selector - baseline formatting for all page items */
+* {
+    box-sizing: border-box; /* ensures all element sizes include padding and border */
+    padding: 0;
+    margin: 0;
+}
+
+/* element selector to format element body */
+body {
+    background-color: lightgray;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#name-box {
+    display: flex;
+    justify-content: center;
+}
+
+#nav-box {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header div {
+    padding: 20px;
+}
+.nav-item {
+
+}
