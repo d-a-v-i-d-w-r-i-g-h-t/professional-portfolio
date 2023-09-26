@@ -1,3 +1,9 @@
+/* root pseudo-class for defining variables */
+:root {
+    --medium-blue: #acc8d7;
+    --dark: #4c4c4c;
+}
+
 /* universal selector - baseline formatting for all page items */
 * {
     box-sizing: border-box; /* ensures all element sizes include padding and border */
@@ -15,7 +21,7 @@ body {
 header {
     margin: 20px;
     font-family: sans-serif;
-    background-color: #acc8d7;
+    background-color: var(--medium-blue);
     color: ;
 }
 
@@ -25,6 +31,12 @@ header {
     display: inline-block;
     font-size: 50px;
 }
+
+header:hover  {
+    box-shadow: inset 0 0 20px 10px
+    var(--medium-blue), 0 0 20px 10px
+    var(--medium-blue)
+    }
 
 .name:hover,
 #about-me-title:hover,
@@ -59,6 +71,7 @@ nav ul li {
     margin-left: 25px;
 
 }
+
 
 /* element selector to format element a (hyperlinks) */
 a {
@@ -116,12 +129,13 @@ h2 {
 }
 
 .grid-item {
-    background-color:#4c4c4c;
+    background-color:var(--dark);
     color: whitesmoke;
     text-align: center;
     padding: 80px;
     font-size: 30px;
 }
+
 
 .grid-item a {
     color: whitesmoke;
@@ -134,10 +148,22 @@ h2 {
     background-blend-mode: multiply;
 }
 
+#grid-item1:hover {
+    box-shadow: inset 0 0 20px 10px
+  var(--medium-blue), 0 0 20px 10px
+  var(--medium-blue)
+}
+
 #grid-item2 {
     background-image: url("../images/cheat-sheet.png");
     background-size: cover;
     background-blend-mode: multiply;
+}
+
+#grid-item2:hover {
+    box-shadow: inset 0 0 20px 10px
+  var(--medium-blue), 0 0 20px 10px
+  var(--medium-blue)
 }
 
 #grid-item3 {
@@ -146,16 +172,34 @@ h2 {
     background-blend-mode: multiply;
 }
 
+#grid-item3:hover {
+    box-shadow: inset 0 0 20px 10px
+  var(--medium-blue), 0 0 20px 10px
+  var(--medium-blue)
+}
+
 #grid-item4 {
     background-image: url("../images/study-guide.png");
     background-size: cover;
     background-blend-mode: multiply;
 }
 
+#grid-item4:hover {
+    box-shadow: inset 0 0 20px 10px
+  var(--medium-blue), 0 0 20px 10px
+  var(--medium-blue)
+}
+
 #grid-item5 {
-    background-image: url("../images/horiseon-refactor.png");
+    background-image: url("../images/professional-portfolio.png");
     background-size: cover;
     background-blend-mode: multiply;
+}
+
+#grid-item5:hover {
+    box-shadow: inset 0 0 20px 10px
+  var(--medium-blue), 0 0 20px 10px
+  var(--medium-blue)
 }
 
 
@@ -192,17 +236,11 @@ h2 {
   /* Large smartphones - grid changes to 1 column - up to 768px */
   @media screen and (max-width: 768px) {
     #projects-grid-container {
-        display: grid;
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(3,200px);
-        grid-gap: 20px;
     }
     
     #grid-item1 {
         grid-column: 1 / span 1;
-        background-image: url("../images/horiseon-refactor.png");
-        background-size: cover;
-        background-blend-mode: multiply;
     }
     
     
