@@ -2,55 +2,44 @@
 
 ## Description 
 
-Your GitHub profile is an extremely important aspect of your public identity as a developer. A well-crafted one allows you to show off your work to other developers as well as potential employers. An important component of your GitHub profile—and one that many new developers often overlook—is the README.md file.
+For this project, I was tasked to create a professional portfolio to highlight personal information, links to various deployed projects, and contact information. I researched portfolio pages and found that experienced designers make them quite involved and impressive.
 
-The quality of a README often differentiates a good project from a bad project. A good one takes advantage of the opportunity to explain and showcase what your application does, justify the technologies used, and even talk about some of the challenges you faced and features you hope to implement in the future. A good README helps you stand out among the large crowd of developers putting their work on GitHub.
+In this project I learned more about css class and id selectors, as well as how to utilize the grid layout. I also had fun with some interactive features such as alt text and box shadow effects on hover. I finally included a media query to alter the grid layout depending on browser window width to make my page more responsive and accessible to multiple screen sizes.
 
-There's no one right way to structure a good README. There is one very wrong way, however, and that is to not include a README at all or to create a very anemic one. This guide outlines a few best practices. As you progress in your career, you will develop your own ideas about what makes a good README.
-
-At a minimum, your project README needs a title and a short description explaining the what, why, and how. What was your motivation? Why did you build this project? (Note: The answer is not "Because it was a homework assignment.") What problem does it solve? What did you learn? What makes your project stand out? 
-
-Lastly, if your project is deployed, include a link to the deployed application here.
-
-If you're new to Markdown, read the GitHub guide on [Mastering Markdown](https://guides.github.com/features/mastering-markdown/).
-
-If you need an example of a good README, check out [the VSCode repository](https://github.com/microsoft/vscode).
-
-
-## Table of Contents (Optional)
-
-If your README is very long, add a table of contents to make it easy for users to find what they need.
-
-* [Installation](#installation)
-* [Usage](#usage)
-* [Credits](#credits)
-* [License](#license)
+I deployed the application on [GitHub](https://github.com/) [Pages](https://pages.github.com/), and it can be found [here](https://d-a-v-i-d-w-r-i-g-h-t.github.io/professional-portfolio/).
 
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
-
+N/A
 
 ## Usage 
 
-Provide instructions and examples for use. Include screenshots as needed. 
+Screenshot of the web page are provided below showing both the wide and narrow formats.
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+![Wide format](assets/images/screenshot-wide.png)
+![Narrow format](assets/images/screenshot-narrow.png)
 
-```md
-![alt text](assets/images/screenshot.png)
-```
+Navigation links are at the top right and jump the user to the designated content sections using anchor tags. As the web page isn't very long, this functionality is easier to demonstrate if the user's browser window height is reduced.
+
+The page formatting changes between two columns and one column as shown above when the width is adjusted.
+
+Alternate text and hover glow effects appear when the user hovers over titles or project images, as shown below:
+
+![Close-up of name](assets/images/header-1.png)
+![Close-up of name showing glow effect](assets/images/header-2.png)
+![Close-up of name showing alternate text](assets/images/header-3.png)
 
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
+I learned about grid layout from [CSS Tricks](https://css-tricks.com/), [A Complete Guide to CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/).
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
+I learned about hover glow from our CSS Code Snippet project.
 
-If you followed tutorials, include links to those here as well.
+I used the Horiseon Refactor project to format my unnumbered lists.
 
+The template for this README file was provided by [edX Boot Camps](https://www.edx.org/boot-camps).
 
 ## License
 
