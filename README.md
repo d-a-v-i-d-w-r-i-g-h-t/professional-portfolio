@@ -18,6 +18,8 @@ N/A
 Screenshot of the web page are provided below showing both the wide and narrow formats.
 
 ![Wide format](assets/images/screenshot-wide.png)
+
+
 ![Narrow format](assets/images/screenshot-narrow.png)
 
 Navigation links are at the top right and jump the user to the designated content sections using anchor tags. As the web page isn't very long, this functionality is easier to demonstrate if the user's browser window height is reduced.
