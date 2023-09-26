@@ -4,7 +4,7 @@
 
 For this project, I was tasked to create a professional portfolio to highlight personal information, links to various deployed projects, and contact information. I researched portfolio pages and found that experienced designers make them quite involved and impressive.
 
-In this project I learned more about css class and id selectors, as well as how to utilize the grid layout. I also had fun with some interactive features such as alt text and box shadow effects on hover. I finally included a media query to alter the grid layout depending on browser window width to make my page more responsive and accessible to multiple screen sizes.
+In this project I learned more about CSS class and ID selectors, as well as how to utilize the grid layout. I also had fun with some interactive features such as alt text and box shadow effects on hover. I finally included a media query to alter the grid layout depending on browser window width to make my page more responsive and accessible to multiple screen sizes.
 
 I deployed the application on [GitHub](https://github.com/) [Pages](https://pages.github.com/), and it can be found [here](https://d-a-v-i-d-w-r-i-g-h-t.github.io/professional-portfolio/).
 
