@@ -101,6 +101,14 @@ h2 {
     grid-gap: 20px;
 }
 
+#projects-grid-container img{
+    width: 100%;
+    max-width: 100%; 
+    max-height: 100%;
+    object-fit: contain;
+   }
+
+
 #projects-title:hover:before {
     visibility: visible;
     font-size: 30px;
@@ -108,13 +116,49 @@ h2 {
 }
 
 .grid-item {
-    background-color:aquamarine;
-    padding: 20px;
+    background-color:#4c4c4c;
+    color: whitesmoke;
+    text-align: center;
+    padding: 80px;
+    font-size: 30px;
+}
+
+.grid-item a {
+    color: whitesmoke;
 }
 
 #grid-item1 {
     grid-column: 1 / span 2;
+    background-image: url("../images/horiseon-refactor.png");
+    background-size: cover;
+    background-blend-mode: multiply;
 }
+
+#grid-item2 {
+    background-image: url("../images/cheat-sheet.png");
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+#grid-item3 {
+    background-image: url("../images/landing-page.png");
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+#grid-item4 {
+    background-image: url("../images/study-guide.png");
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+#grid-item5 {
+    background-image: url("../images/horiseon-refactor.png");
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+
 
 
 #contact-info {
@@ -145,21 +189,21 @@ h2 {
 
 
 
-@media screen and (max-width: 992px) {
-    .projects-grid-container {
-        display: grid;
-        width: 100%;
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-  }
-
-  /* Large smartphones - navbar changes color - up to 768px */
+  /* Large smartphones - grid changes to 1 column - up to 768px */
   @media screen and (max-width: 768px) {
-    .projects-grid-container {
+    #projects-grid-container {
         display: grid;
-        width: 100%;
         grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3,200px);
+        grid-gap: 20px;
     }
+    
+    #grid-item1 {
+        grid-column: 1 / span 1;
+        background-image: url("../images/horiseon-refactor.png");
+        background-size: cover;
+        background-blend-mode: multiply;
+    }
+    
     
   }
