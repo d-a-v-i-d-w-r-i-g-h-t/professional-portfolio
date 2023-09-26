@@ -17,6 +17,8 @@ h2 {
     font-size: 30px;
 }
 
+
+
 header {
     padding: 20px;
     font-family: sans-serif;
@@ -30,9 +32,9 @@ header {
 }
 
 .name:hover,
-#about-me:hover,
-#projects:hover,
-#contact-info:hover {
+#about-me-title:hover,
+#projects-title:hover,
+#contact-info-title:hover {
     visibility: hidden;
 }
 
@@ -42,19 +44,19 @@ header {
     content: "d-a-v-i-d-w-r-i-g-h-t"
 }
 
-#about-me:hover:before {
+#about-me-title:hover:before {
     visibility: visible;
     font-size: 30px;
     content: "a-b-o-u-t-m-e"
 }
 
-#projects:hover:before {
+#projects-title:hover:before {
     visibility: visible;
     font-size: 30px;
     content: "p-r-o-j-e-c-t-s"
 }
 
-#contact-info:hover:before {
+#contact-info-title:hover:before {
     visibility: visible;
     font-size: 30px;
     content: "c-o-n-t-a-c-t"
@@ -81,21 +83,22 @@ nav ul li {
 
 }
 
-footer {
+#contact-info {
     padding-top: 20px;
     margin-right: 30px;
-    text-align: center;
+    text-align: left;
     font-family: sans-serif;
 }
 
 
-footer ul {
+#contact-info ul {
     list-style-type: none;
+    text-align: center;
 }
 
-footer ul li {
+#contact-info ul li {
     display: inline-block;
-    margin-left: 50px;
+    margin-left: 5%;
 
 }
 
