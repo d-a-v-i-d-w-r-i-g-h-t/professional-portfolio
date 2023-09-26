@@ -11,17 +11,6 @@ body {
     font-family: sans-serif
 }
 
-main {
-    margin: 20px;
-}
-
-h2 {
-    padding-top: 50px;
-    padding-bottom: 20px;
-    font-size: 30px;
-}
-
-
 
 header {
     margin: 20px;
@@ -30,11 +19,6 @@ header {
     color: ;
 }
 
-
-#about-me img {
-    max-height: 200px;
-    float: right;
-}
 
 .name{
     padding: 20px;
@@ -54,26 +38,6 @@ header {
     font-size: 50px;
     content: "d-a-v-i-d-w-r-i-g-h-t"
 }
-
-#about-me-title:hover:before {
-    visibility: visible;
-    font-size: 30px;
-    content: "a-b-o-u-t-m-e"
-}
-
-#projects-title:hover:before {
-    visibility: visible;
-    font-size: 30px;
-    content: "p-r-o-j-e-c-t-s"
-}
-
-#contact-info-title:hover:before {
-    visibility: visible;
-    font-size: 30px;
-    content: "c-o-n-t-a-c-t"
-}
-
-
 
 nav {
     padding-top: 20px;
@@ -103,11 +67,68 @@ a {
 }
 
 
+
+
+main {
+    margin: 20px;
+}
+
+h2 {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+
+
+#about-me-title:hover:before {
+    visibility: visible;
+    font-size: 30px;
+    content: "a-b-o-u-t-m-e"
+}
+
+#about-me img {
+    max-height: 200px;
+    float: right;
+}
+
+
+
+#projects-grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3,200px);
+    grid-gap: 20px;
+}
+
+#projects-title:hover:before {
+    visibility: visible;
+    font-size: 30px;
+    content: "p-r-o-j-e-c-t-s"
+}
+
+.grid-item {
+    background-color:aquamarine;
+    padding: 20px;
+}
+
+#grid-item1 {
+    grid-column: 1 / span 2;
+}
+
+
 #contact-info {
     padding-top: 20px;
     margin-right: 30px;
     text-align: left;
     font-family: sans-serif;
+}
+
+
+#contact-info-title:hover:before {
+    visibility: visible;
+    font-size: 30px;
+    content: "c-o-n-t-a-c-t"
 }
 
 
@@ -122,3 +143,23 @@ a {
 
 }
 
+
+
+@media screen and (max-width: 992px) {
+    .projects-grid-container {
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+  }
+
+  /* Large smartphones - navbar changes color - up to 768px */
+  @media screen and (max-width: 768px) {
+    .projects-grid-container {
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+  }
