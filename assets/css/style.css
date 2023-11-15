@@ -160,7 +160,7 @@ h2 {
 /* background image added to id */
 #grid-item1 {
     grid-column: 1 / span 2;
-    background-image: url("../images/what-to-watch.png");
+    background-image: url("../images/gym-flow.png");
     background-size: cover;
     background-blend-mode: multiply;
 }
@@ -175,7 +175,7 @@ h2 {
 /* id selector to format id grid-item2 */
 /* background image added to id */
 #grid-item2 {
-    background-image: url("../images/horiseon-refactor.png");
+    background-image: url("../images/what-to-watch.png");
     background-size: cover;
     background-blend-mode: multiply;
 }
@@ -190,7 +190,7 @@ h2 {
 /* id selector to format id grid-item3 */
 /* background image added to id */
 #grid-item3 {
-    background-image: url("../images/cheat-sheet.png");
+    background-image: url("../images/code-quiz.png");
     background-size: cover;
     background-blend-mode: multiply;
 }
@@ -205,7 +205,7 @@ h2 {
 /* id selector to format id grid-item4 */
 /* background image added to id */
 #grid-item4 {
-    background-image: url("../images/landing-page.png");
+    background-image: url("../images/weather-dashboard-results.png");
     background-size: cover;
     background-blend-mode: multiply;
 }
@@ -220,7 +220,7 @@ h2 {
 /* id selector to format id grid-item5 */
 /* background image added to id */
 #grid-item5 {
-    background-image: url("../images/study-guide.png");
+    background-image: url("../images/cheat-sheet.png");
     background-size: cover;
     background-blend-mode: multiply;
 }
