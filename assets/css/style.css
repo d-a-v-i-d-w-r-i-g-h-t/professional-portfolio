@@ -148,6 +148,10 @@ h2 {
     font-size: 30px;
 }
 
+.grid-item p {
+    font-size: 20px;
+    color: gray;
+}
 
 /* descendent selector to format all element a inside class grid-item */
 .grid-item a {
