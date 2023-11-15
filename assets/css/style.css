@@ -24,6 +24,8 @@ header {
     font-family: sans-serif;
     background-color: var(--medium-blue);
     color: ;
+    transition: box-shadow 0.3s ease; /* Add a transition to the box-shadow property */
+
 }
 
 
@@ -167,6 +169,7 @@ h2 {
     background-image: url("../images/gym-flow.png");
     background-size: cover;
     background-blend-mode: multiply;
+    transition: box-shadow 0.3s ease; /* Add a transition to the box-shadow property */
 }
 
 /* id selector with :hover to format on hover */
@@ -182,6 +185,7 @@ h2 {
     background-image: url("../images/what-to-watch.png");
     background-size: cover;
     background-blend-mode: multiply;
+    transition: box-shadow 0.3s ease; /* Add a transition to the box-shadow property */
 }
 
 /* id selector with :hover to format on hover */
@@ -197,6 +201,7 @@ h2 {
     background-image: url("../images/code-quiz.png");
     background-size: cover;
     background-blend-mode: multiply;
+    transition: box-shadow 0.3s ease; /* Add a transition to the box-shadow property */
 }
 
 /* id selector with :hover to format on hover */
@@ -212,6 +217,7 @@ h2 {
     background-image: url("../images/weather-dashboard-results.png");
     background-size: cover;
     background-blend-mode: multiply;
+    transition: box-shadow 0.3s ease; /* Add a transition to the box-shadow property */
 }
 
 /* id selector with :hover to format on hover */
@@ -227,6 +233,7 @@ h2 {
     background-image: url("../images/cheat-sheet.png");
     background-size: cover;
     background-blend-mode: multiply;
+    transition: box-shadow 0.3s ease; /* Add a transition to the box-shadow property */
 }
 
 /* id selector with :hover to format on hover */
